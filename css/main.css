@@ -44,7 +44,15 @@ h1 {
   font-size: 2em;
   font-family: 'Merriweather', serif;
   font-weight: bold;
+}
 
+h2 {
+  text-align: center;
+  line-height: 1em;
+  font-size: 1.5em;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  padding-top: 1em;
 }
 
 nav {
@@ -81,9 +89,14 @@ nav a {
 
 main {
   margin: 1em;
-  font-size: 1em;
+  font-family: 'Merriweather', serif;
+  font-size: .75em;
+
 }
 
+.p2 {
+  margin-bottom: 15px;
+}
 
 .grains {
   float: left;
@@ -95,9 +108,16 @@ main {
 .right2 {
   float: right;
   width: 55%;
-  margin-bottom: .5em;
+  margin-bottom: 1em;
   border: 1px solid #333;
 }
 .cereals {
   float: left;
+}
+
+.famous-cereal {
+  background-color: orange;
+  clear: both;
+  overflow: hidden;
+
 }
