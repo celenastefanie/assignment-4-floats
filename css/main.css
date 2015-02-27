@@ -49,10 +49,11 @@ h1 {
 h2 {
   text-align: center;
   line-height: 1em;
-  font-size: 1.5em;
+  font-size: 2em;
   font-family: 'Merriweather', serif;
   font-weight: bold;
   padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 nav {
@@ -119,5 +120,75 @@ main {
   background-color: orange;
   clear: both;
   overflow: hidden;
+  color: white;
 
+}
+
+.rice{
+  margin: 0;
+  float: left;
+  width: 50%;
+  margin-bottom: 2em;
+}
+
+.corn{
+  margin: 0;
+  margin-bottom: 2em;
+}
+
+.oats{
+  margin: 0;
+  float: right;
+  width: 50%;
+  margin-bottom: 2em;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+.famous-legumes {
+}
+
+.beans {
+  float: left;
+  width:30%;
+  margin-bottom: 1em;
+  border: 1px solid #333;
+  clear: left;
+}
+
+.lentils {
+  float: left;
+  width: 30%;
+  margin-bottom: 1em;
+  border: 1px solid #333;
+  clear: left;
+}
+
+.peanuts {
+  float: left;
+  width: 30%;
+  margin-bottom: 1em;
+  border: 1px solid #333;
+  clear: left;
+}
+
+.p3 {
+  
+}
+
+footer {
+  clear: both;
+
+}
+
+em {
+  font-weight: bold;
 }
