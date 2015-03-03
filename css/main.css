@@ -31,11 +31,11 @@ img {
 }
 
 header {
-  background-color: orange;
+  background-color: #D75E26;
   color: white;
   clear: both;
   padding-top: .5em;
-  padding-bottom: .5em;
+  padding-bottom: .25em;
 }
 
 h1 {
@@ -53,7 +53,7 @@ h2 {
   font-family: 'Merriweather', serif;
   font-weight: bold;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: .5em;
 }
 
 nav {
@@ -69,14 +69,14 @@ nav ol {
   overflow: hidden;
 }
 
-nav li {
+.nav {
   float: left;
   width: 33.3333333333333%;
 }
 
 nav a {
   padding: .5em  .5em .5em;
-  background-color: orange;
+  background-color: #D75E26;
   color: white;
   text-decoration: none;
   border-top: 1px solid white;
@@ -117,7 +117,7 @@ main {
 }
 
 .famous-cereal {
-  background-color: orange;
+  background-color: #FAA47C;
   clear: both;
   overflow: hidden;
   color: white;
@@ -146,49 +146,70 @@ main {
 figcaption {
   text-align: center;
   font-style: italic;
-
-}
-
-li {
-  list-style-type: none;
-}
-
-.famous-legumes {
 }
 
 .beans {
-  float: left;
-  width:30%;
+  width:25%;
   margin-bottom: 1em;
+  float: left;
+  clear: both;
   border: 1px solid #333;
-  clear: left;
+  margin-right: .5em;
+}
+
+.b-text {
+  float: left;
+  display: inline-block;
+  margin-top: 1em;
 }
 
 .lentils {
+  width: 25%;
   float: left;
-  width: 30%;
+  clear: both;
   margin-bottom: 1em;
+  margin-right: .5em;
   border: 1px solid #333;
-  clear: left;
+}
+
+.l-text {
+  float: left;
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 .peanuts {
-  float: left;
-  width: 30%;
+  width: 25%;
   margin-bottom: 1em;
-  border: 1px solid #333;
-  clear: left;
-}
-
-.p3 {
-  
-}
-
-footer {
+  float: left;
   clear: both;
+  border: 1px solid #333;
+  margin-right: .5em;
+}
 
+.p-text {
+  float: left;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0em;
+  margin: 0;
 }
 
 em {
   font-weight: bold;
+}
+
+footer {
+  clear: both;
+  background-color: #D75E26;
+  text-align: center;
+  font-size: .75em;
+  padding: 2em;
+  margin-top: 2em;
+  color: #FFD8D8;
 }
